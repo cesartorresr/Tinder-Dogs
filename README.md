@@ -8,4 +8,4 @@ The details when click like✅ or nope🚫 pretty dope do that over an image.
 
 Link to see the app: https://tinderperros.netlify.app/
 
-Happy Coding!💪
+Happy Coding!💪✅
