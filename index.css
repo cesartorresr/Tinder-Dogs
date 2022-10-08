@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    width: 550px;
+    margin: 0 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    width: 550px;
+    max-width: 100%;
+}
+
+.imagen-header {
+    object-fit: cover;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    border-radius: 40px;
+    margin-bottom: 0px;
+}
+
+img {
+object-fit: cover;
+}
+
+.imagen-perros {
+    width: 534px;
+    height: 751.44px; 
+    object-fit: cover;  
+    margin: 20px 5px;
+    border-radius: 40px;
+}
+
+main {
+    position: relative;
+}
+
+.container-text {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 30px;
+    color: white;
+    height: 70px;
+    width: 200px;
+}
+
+.h1 {
+    position: absolute;
+    font-weight: 600;
+    font-size: 32px;
+}
+.p1 {
+    position: absolute;
+   font-weight: 400;
+   color: #B7B7B7;
+   margin-top: 80px;
+   font-size: 24px;
+   width: 400px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.cross, .heart {
+    margin: 0 15px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+#liked {
+    position: absolute;
+    width: 200px;
+    transform: rotate(-20deg);
+    margin-left: -520px;
+    margin-top: 60px;
+    display: none
+}
+
+#nope {
+    position: absolute;
+    width: 200px;
+    transform: rotate(-20deg);
+    margin-left: -520px;
+    margin-top: 60px;
+    display: none;
+}
+
+.verde {
+    background-color: #DBFFF4;
+}
+
+.rojo {
+    background-color: #FFE7EF;
+}
